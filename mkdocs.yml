@@ -1,0 +1,11 @@
+site_name: Annotating machine learning resources with Bioschemas
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
+  palette:
+    primary: teal
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.path
+    - navigation.indexes
