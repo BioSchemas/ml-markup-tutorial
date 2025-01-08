@@ -5,7 +5,20 @@ theme:
   palette:
     primary: teal
   features:
-    - navigation.tabs
+    #- navigation.tabs
     - navigation.sections
     - navigation.path
     - navigation.indexes
+    - content.code.copy
+#nav:
+#  - 'Step 1: understanding Schema.org': '1-schema.md'
+#  - 'Step 2: understanding Bioschemas': '2-bioschemas.md'
+#  - 'Step 3: annotating a ML training dataset': '3-dataset.md'
+#  - 'Step 4: annotating a ML software': '4-software.md'
+#  - 'Step 5: evaluating FAIRness of annotated ML resources': '5-fairness.md'
+
+markdown_extensions:
+  - footnotes
+  - pymdownx.highlight:
+     anchor_linenums: true
+     auto_title: false
