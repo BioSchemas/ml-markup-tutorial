@@ -53,7 +53,7 @@ For more details on JSON-LD encoding of Schema.org, please refer to the [Biosche
 
 The last step of the annotation process consists in making accessible the metadata. This can be done by adding the metadata to the HTML code of the dataset webpage.
 
-## Step 3. Annotating an ML software by using the computational tool 
+## Step 3. Annotating an ML software by using the computational tool profile
 We have seen how to manually write Bioschemas metatadata in JSON-LD to annotate a sample dataset. Now, we will see how we can use a software registry to lighten the annotation process. 
 
 [Bio.tools](https://bio.tools) is a registry of software tools for the life sciences. It allow users to submit new tools, and to search for existing ones. During the submission process, users are asked to provide metadata about the tool. This metadata is then used to dynamically generate a JSON-LD representation on the web page describing the tool. 
