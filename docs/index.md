@@ -6,7 +6,7 @@
 
 ### [Schema.org](http://schema.org)
 
-Schema.org is a collaborative, community activity aimed at creating, maintain, and promoting schemas for structured data on the web. Schema.org vocabulary can be used with many different encodings, including RDFa, Microdata and JSON-LD. Over 10 million sites use Schema.org to markup their web pages. Many applications from Google, Bing, Yandex and others already use these vocabularies to more easily index web content and provide rich result snippets to web users.
+Schema.org is a collaborative, community activity aimed at creating, maintaining, and promoting schemas for structured data on the web. Schema.org vocabulary can be used with many different encodings, including RDFa, Microdata and JSON-LD. Over 10 million sites use Schema.org to markup their web pages. Many applications from Google, Bing, Yandex and others already use these vocabularies to more easily index web content and provide rich result snippets to web users.
 
 ### [Bioschemas](https://bioschemas.org/)
 
