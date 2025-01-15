@@ -16,7 +16,7 @@ Bioschemas is a community initiative to improve the findability of life science 
 
 Here, we consider the following dataset: [https://registry.dome-ml.org/review/dfyn1yvtz3#dataset](https://registry.dome-ml.org/review/dfyn1yvtz3#dataset). More details for this dataset can be found here in [this GitHub repository](https://github.com/RyanCook94/inphared).
 
-After browsing the [Bioschemas dataset profile](https://bioschemas.org/profiles/Dataset/1.0-RELEASE), we figure out that we **must** provide the required metatdata, and we **should** provide the recommended metadata. For brevity, we will ommit the optional metadata.
+After browsing the [Bioschemas dataset profile](https://bioschemas.org/profiles/Dataset/1.0-RELEASE), we figure out that we **must** provide the required metadata, and we **should** provide the recommended metadata. For brevity, we will omit the optional metadata.
 
 The **required metadata** fields are (`description`, `identifier`, `keywords`, `license`, `name`, `url`) 
 
@@ -54,7 +54,7 @@ For more details on JSON-LD encoding of Schema.org, please refer to the [Biosche
 The last step of the annotation process consists in making accessible the metadata. This can be done by adding the metadata to the HTML code of the dataset webpage.
 
 ## Step 3. Annotating an ML software by using the computational tool profile
-We have seen how to manually write Bioschemas metatadata in JSON-LD to annotate a sample dataset. Now, we will see how we can use a software registry to lighten the annotation process. 
+We have seen how to manually write Bioschemas metadata in JSON-LD to annotate a sample dataset. Now, we will see how we can use a software registry to lighten the annotation process. 
 
 [Bio.tools](https://bio.tools) is a registry of software tools for the life sciences. It allow users to submit new tools, and to search for existing ones. During the submission process, users are asked to provide metadata about the tool. This metadata is then used to dynamically generate a JSON-LD representation on the web page describing the tool. 
 
@@ -67,7 +67,7 @@ If we check this web page with the [schema.org validation tool](https://validato
 **The key message here is that chosing the right registry is already a key step towards FAIRer ML resources**
 
 ## Step 4. Evaluating the global FAIRness of the annotated ML resources
-Finally we will breifly explore how to evaluate the FAIRness of the annotated resources. 
+Finally we will briefly explore how to evaluate the FAIRness of the annotated resources. 
 We will use the [FAIRChecker](https://fair-checker.france-bioinformatique.fr) tool. This tool allows to evaluate the FAIRness of a resource by checking the presence of semantic metadata. 
 
 If we consider a [ML dataset](https://www.kaggle.com/datasets/ankushpanday1/heart-attack-in-youth-vs-adult-in-germany) registered in Kaggle, we can see that the dataset is FAIR enough: 
